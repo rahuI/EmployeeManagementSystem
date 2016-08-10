@@ -10,3 +10,5 @@ HR:
 HR can login to his/her account using their email and password.
 HR can create/add a new employee.
 HR can add remark for any employee.
+
+Connected with GitHub
