@@ -1,0 +1,12 @@
+#userLogin{
+	visibility: hidden;
+	display: none;
+}
+#loginBlock{
+	visibility: visible;
+	display: block;
+}
+#userData{
+	visibility: hidden;
+	display: none;
+}

@@ -3,6 +3,7 @@
 	<head>
 		<title>EMS</title>
 		<script type="text/javascript" src="scripts/hrScript.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/hrhome.css">
 	</head>
 	<body>
 		<header>
@@ -13,14 +14,29 @@
 			<input type="email" name="usermail" id="usermail" value="Email" required>
 			<input type="password" name="userpass" id="userpass" value="pass" required>
 			<input type="text" name="hrcomment" id="comment" value="Comment" required>
-			<button type="submit" onclick="addEmp()">Add</button><br>
+			<button type="submit" onclick="addEmp()">Add</button>
+			<button type="submit" onclick="loginEmp()">User Login</button><br>
 			<br>
 			Total Users : <span id="total">0</span><br>
 			<br>
 			Users Deatils :<br>
 			<ul></ul><br>
 		</div>
-
+		<div id="userLogin">
+			<strong>User Log In</strong><br>
+			<input type="email" name="usermail" id="emailIn" value="Email" required>
+			<input type="password" name="userpass" id="passIn" value="pass" required>
+			<button type="submit" onclick="validateEmp()">Log In</button>
+		</div>
+		<div id="userData">
+			<strong>Profile</strong><br>
+			<p> User Email : </p>
+			<p id="setEmail"> </p><br>
+			<p> User Password : </p>
+			<p id="setPass"> </p><br>
+			<p> Comment From HR : </p>
+			<p id="setCom"> </p><br>
+		</div>
 		<footer>
 			<h6>By CronJ IT Technologies</h6>
 		</footer>
