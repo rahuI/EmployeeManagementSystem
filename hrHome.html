@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<title>EMS</title>
+		<script type="text/javascript" src="scripts/hrScript.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Employee Management System</h1>
+		</header>
+		<div id="loginBlock">
+			<strong>Add a user</strong><br>
+			<input type="email" name="usermail" id="usermail" value="Email" required>
+			<input type="password" name="userpass" id="userpass" value="pass" required>
+			<input type="text" name="hrcomment" id="comment" value="Comment" required>
+			<button type="submit" onclick="addEmp()">Add</button><br>
+			<br>
+			Total Users : <span id="total">0</span><br>
+			<br>
+			Users Deatils :<br>
+			<ul></ul><br>
+		</div>
+
+		<footer>
+			<h6>By CronJ IT Technologies</h6>
+		</footer>
+	</body>
+</html>
